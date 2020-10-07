@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* 현 사이트의 모든 페이지에서 사용할 기본값들을 가진 css파일 */
+body {
+	color:#000;
+	font-size:75%;
+	/* 
+	75%일 경우 em크기 : 1em -> 12px, 1.2em -> 14px, 1.5em -> 18px
+	62.5%일		경우  : 1em -> 10px, 1.2em -> 12px (62.5%가 권장하는 크기)
+	*/
+	line-height:1.2;
+	font-family:돋움, Dotum, 굴림, Gulim, sans-serif;
+	background:url("../images/bg_body.gif") repeat-x;
+}
+
+a:link { color:#4f4f4f; text-decoration:none; }
+a:visited { color:#8a2e91; text-decoration:none; }
+a:hover { color:#f00; text-decoration:underline; }
+a:focus { color:#f00; text-decoration:underline; }
+a:active { color:#f00; text-decoration:none; }
+
+
+/* 숨겨야 하는 요소 처리 */
+#header h2, legend, #slogan h2, #footer h2 {
+	position:absolute; overflow:hidden; width:1px; height:1px; font-size:0; line-height:0;
+}
+
+
+
+

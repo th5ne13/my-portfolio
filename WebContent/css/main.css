@@ -1,0 +1,376 @@
+@charset "utf-8";
+/* main페이지 전용 CSS파일로 main(index)페이지에서만 사용되는 스타일 시트 정의 */
+
+
+/* 메인 index  */
+.perGround { width: 400px; height: 200px; margin: 55px; border:1px red solid; display: inline-block; float: center; }
+.main_common { 
+	width: 30%;	height: 50px; display: inline-block; float: center; border: 1px solid green; text-align: center;
+	font-size: 1.5em; vertical-align: middle; padding-top: 30px;
+}
+.search { width: 200px; height:30px; display: inline-block; float: center; border: 1px solid red; text-align: center; font-size: 1.2em; }
+.perGround { width: 400px; height: 200px; margin: 55px; border:1px red solid; display: inline-block; float: center; }
+
+
+
+/* 국/외 게시판 리스트 */
+.dAndIBoardList .home { width:800px; height:100px; margin:0 auto; border:1px solid black; line-height:100px; }
+.dAndIBoardList .otherNotice { 
+	width:800px; height:50px; display: inline-block; float: center; border:1px solid black; text-align:center; font-size:1.2em;
+	line-height:30px; line-height:50px; }
+.dAndIBoardList .search { 
+	width:800px; height:70px; display: inline-block; float: center; border:1px solid black; text-align:center; font-size:1.2em;
+	line-height:70px; 	 }
+.dAndIBoardList { width: 1080px; height: 700px; margin: 5px; border:1px black solid; display: inline-block; float: center; text-align:center;}
+.dAndIBoardList .boardList { width:800px; height:50px; margin-left:auto; margin-right:auto; border:1px solid black; } 
+.dAndIBoardList .boardList th { text-align:center; border-bottom:1px solid black; }
+.dAndIBoardList .boardList .t { text-align:left; }
+.dAndIBoardList .boardList td { text-align:center; }
+.dAndIBoardList .paging { width:800px; height:50px; margin-left:auto; margin-right:auto; } 
+.dAndIBoardList .paging td { text-align:center; }
+.dAndIBoardList .btn { width:800px; height:50px; margin-left:auto; margin-right:auto; }
+.dAndIBoardList .btn td { text-align:right; }
+
+
+
+/* 국/외 게시판 등록 */
+.boardForm .home { width:800px; height:100px; margin:0 auto; border:1px solid black; line-height:100px; }
+.boardForm .otherNotice { 
+	width:800px; height:50px; display: inline-block; float: center; border:1px solid black; text-align:center; font-size:1.2em;
+	line-height:30px; line-height:50px; }
+.boardForm { width: 1080px; height: 700px; margin: 5px; border:1px black solid; display: inline-block; float: center; text-align:center;}
+.boardForm .in { width:800px; height:100px; margin-left:auto; margin-right:auto; border:1px solid black; } 
+.boardForm .in th { text-align:center; border-bottom:1px solid black; height:20px; }
+.boardForm .btn { width:800px; height:70px; margin-left:auto; margin-right:auto;  border:1px solid black; }
+.boardForm .btn td { text-align:right; }
+
+
+
+/* 국/외 게시판 뷰	 */
+.boardView .home { width:800px; height:100px; margin:0 auto; border:1px solid black; line-height:100px; }
+.boardView .otherNotice { 
+	width:800px; height:50px; display: inline-block; float: center; border:1px solid black; text-align:center; font-size:1.2em;
+	line-height:30px; line-height:50px; }
+.boardView { width: 1080px; margin: 5px; border:1px black solid; display: inline-block; float: center; text-align:center; }
+.boardView .view { width:800px; height:100px; margin-left:auto; margin-right:auto; border:1px solid black; } 
+.boardView .viewUp { width:800px; height:100px; margin-left:auto; margin-right:auto; border:0px solid black; } 
+.boardView .replyIn { width:800px; height:100px; margin-left:auto; margin-right:auto; border:0px solid black; } 
+.boardView .replyList { width:800px; height:100px; margin-left:auto; margin-right:auto; border:1px solid black; }
+.boardView th { text-align:center; }
+.boardView td { text-align:center; }
+.boardView .view tr { border:1px solid black; }
+.boardView .view .t { text-align:left; }
+.boardView .view .c { text-align:left; }
+.boardView .replyList th { border-bottom:1px solid black; height:20px; }
+.boardView .replyList .c { text-align:left; }
+.boardView .viewUp .upDelListBtn { text-align:right; }
+.boardView .replyIn .replyBtn { text-align:right; }
+.boardView .replyList .homeBtn { text-align:right; }
+
+
+
+/* 1:1 게시판 리스트 */
+.perBoard .home { width:800px; height:100px; margin:0 auto; border:0px solid red; line-height:100px; }
+.perBoard .otherBoard { 
+	width:800px; height:50px; display: inline-block; float: center; border:1px solid black; text-align:center; font-size:1.2em;
+	line-height:30px; line-height:50px; }
+.perBoard { width: 1080px; height: 700px; margin: 5px; border:1px black solid; display: inline-block; float: center; text-align:center;}
+.perBoard .perBoardList { width:800px; height:100px; margin-left:auto; margin-right:auto; border:1px solid black; }
+.perBoard .perBoardList th { border-bottom:1px solid black; text-align:center; height:30px; }
+.perBoard .perBoardList td { text-align:center; }
+.perBoard .perBoardList .t { text-align:left; }
+.perBoard .btn { width:800px; height:70px; margin-left:auto; margin-right:auto;  border:0px solid black; }
+.perBoard .btn td { text-align:right; }
+
+
+
+/* 1:1 게시판 등록폼 */
+.perBoard .home { width:800px; height:100px; margin:0 auto; border:0px solid red; line-height:100px; }
+.perBoard .otherBoard { 
+	width:800px; height:50px; display: inline-block; float: center; border:1px solid black; text-align:center; font-size:1.2em;
+	line-height:30px; line-height:50px; }
+.perBoard { width: 1080px; height: 700px; margin: 5px; border:1px black solid; display: inline-block; float: center; text-align:center;}
+.perBoard .qlCata { width:800px; height:30px; margin-left:auto; margin-right:auto; border:0px solid black; }
+.perBoard .qlCata td { text-align:left; }
+.perBoard .perBoardForm { width:800px; height:100px; margin-left:auto; margin-right:auto; border:1px solid black; } 
+.perBoard .perBoardForm th { text-align:center; border-bottom:1px solid black; height:20px; }
+.perBoard .btn { width:800px; height:70px; margin-left:auto; margin-right:auto;  border:0px solid black; }
+.perBoard .btn td { text-align:right; }
+
+
+
+/* 1:1 게시판 View */
+.perBoard .home { width:800px; height:100px; margin:0 auto; border:0px solid red; line-height:100px; }
+.perBoard .otherBoard { 
+	width:800px; height:50px; display: inline-block; float: center; border:1px solid black; text-align:center; font-size:1.2em;
+	line-height:30px; line-height:50px; }
+
+.perBoard { width: 1080px; height: 700px; margin: 5px; border:1px black solid; display: inline-block; float: center; text-align:center;}
+.perBoard .perBoardQ { width:800px; height:30px; margin-left:auto; margin-right:auto; border:0px solid black; } 
+.perBoard .perBoardQ td { border:1px solid black; border-bottom:none; text-align:center; }
+ .perBoard .perBoardQ .leftTd { border-right:none; }
+.perBoard .perBoardA { width:800px; height:100px; margin-left:auto; margin-right:auto; border-bottom:1px solid black; }
+.perBoard .perBoardA td { border:1px solid black; border-bottom:none; text-align:left; }
+.perBoard .btn { width:800px; height:70px; margin-left:auto; margin-right:auto;  border:0px solid black; }
+.perBoard .btn td { text-align:right; }
+
+
+
+/* 용병 모집 게시판 리스트  */
+.recruitBoard { width: 1080px; margin: 5px; border:1px black solid; display: inline-block; float: center; text-align:center; }
+.recruitBoard .container { width:900px; height:100px; border:0px solid black; margin-left:auto; margin-right:auto; margin:10px auto; }
+.recruitBoard .container .l_btn { width:250px; height:70px; border:1px solid black; display: inline-block; float: left; line-height:70px; background:lightblue; font-size:2.0em; }
+.recruitBoard .container .r_btn { width:250px; height:70px; border:1px solid black; display: inline-block; float: right; line-height:70px; background:lightblue; font-size:2.0em; }
+.recruitBoard .now { width:900px; border:1px solid black; text-align:center; margin:0px auto; height:30px; color:red; font-size:2.0em; }
+.recruitBoard .btn { width:900px; border:0px solid black; text-align:right; margin:0px auto; height:30px; }
+.recruitBoard .recruitBoardList { width:800px; height:100px; margin-left:auto; margin-right:auto; border:1px solid black; }
+.recruitBoard .rBoardList { width:900px; height:100px; margin-left:auto; margin-right:auto; border:1px solid black; }
+.recruitBoard .rBoardList th { text-align:center; border-bottom:1px solid black; height:30px; }
+.recruitBoard .rBoardList td { text-align:center; height:40px; }
+.recruitBoard .search { 
+	width:900px; height:50px; display: inline-block; float: center; border:0px solid black; text-align:center; font-size:1.0em; line-height:50px; } 
+.recruitBoard .paging { width:900px; height:60px; line-height:60px; margin-left:auto; margin-right:auto; } 
+.recruitBoard .paging td { text-align:center; }
+
+
+
+/* 용병 지원 게시판 리스트  */
+.applyBoard { width: 1080px; margin: 5px; border:1px black solid; display: inline-block; float: center; text-align:center; }
+.applyBoard .container { width:900px; height:100px; border:0px solid black; margin-left:auto; margin-right:auto; margin:10px auto; }
+.applyBoard .container .l_btn { width:250px; height:70px; border:1px solid black; display: inline-block; float: left; line-height:70px; background:lightblue; font-size:2.0em; }
+.applyBoard .container .r_btn { width:250px; height:70px; border:1px solid black; display: inline-block; float: right; line-height:70px; background:lightblue; font-size:2.0em; }
+.applyBoard .now { width:900px; border:1px solid black; text-align:center; margin:0px auto; height:30px; color:red; font-size:2.0em; }
+.applyBoard .btn { width:900px; border:0px solid black; text-align:right; margin:0px auto; height:30px; }
+.applyBoard .aBoardList { width:900px; height:100px; margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; }
+.applyBoard .aBoardList th { text-align:center; border-bottom:1px solid black; height:30px; }
+.applyBoard .aBoardList td { text-align:center; height:40px; }
+.applyBoard .search { 
+	width:900px; height:50px; display: inline-block; float: center; border:0px solid black; text-align:center; font-size:1.0em; line-height:50px; } 
+.applyBoard .paging { width:900px; height:60px; line-height:60px; margin-left:auto; margin-right:auto; } 
+.applyBoard .paging td { text-align:center; }
+
+
+
+/* 용병지원 폼 */
+.applyForm { width: 1080px; margin: 5px; border:1px black solid; display: inline-block; float: center; text-align:center; }
+.applyForm .container { width:700px; height:100px; border:0px solid black; margin-left:auto; margin-right:auto; margin:10px auto; }
+.applyForm .container .l_btn { width:250px; height:70px; border:1px solid black; display: inline-block; float: left; line-height:70px; background:lightblue; font-size:2.0em; }
+.applyForm .container .r_btn { width:250px; height:70px; border:1px solid black; display: inline-block; float: right; line-height:70px; background:lightblue; font-size:2.0em; }
+.applyForm .now { width:700px; border:1px solid black; text-align:center; margin:0px auto; height:30px; color:red; font-size:2.0em; }
+.applyForm .aForm { width:700px; height:100px; margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; border-top:none; } 
+.applyForm .aForm th { text-align:left; border:1px solid black; height:30px; padding:0 0 0 10px; border-left:none; border-right:none; background:#e6e6e6; }
+.applyForm .aForm td { text-align:left; height:40px; padding:0 0 0 10px; }
+.applyForm .aForm .content { padding:10px 0 10px 10px; }
+.applyForm .btn { width:700px; height:70px; margin-left:auto; margin-right:auto;  border:0px solid black; }
+.applyForm .btn td { text-align:right; }
+
+
+
+/* 용병모집 폼 */
+.recruitForm { width: 1080px; margin: 5px; border:1px black solid; display: inline-block; float: center; text-align:center; }
+.recruitForm .container { width:700px; height:100px; border:0px solid black; margin-left:auto; margin-right:auto; margin:10px auto; }
+.recruitForm .container .l_btn { width:250px; height:70px; border:1px solid black; display: inline-block; float: left; line-height:70px; background:lightblue; font-size:2.0em; }
+.recruitForm .container .r_btn { width:250px; height:70px; border:1px solid black; display: inline-block; float: right; line-height:70px; background:lightblue; font-size:2.0em; }
+.recruitForm .now { width:700px; border:1px solid black; text-align:center; margin:0px auto; height:30px; color:red; font-size:2.0em; }
+.recruitForm .rForm { width:700px; height:100px; margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; border-top:none; } 
+.recruitForm .rForm th { text-align:left; border:1px solid black; height:30px; padding:0 0 0 10px; border-left:none; border-right:none; background:#e6e6e6; }
+.recruitForm .rForm td { text-align:left; height:40px; padding:0 0 0 10px; }
+.recruitForm .rForm .content { padding:10px 0 10px 10px; }
+.recruitForm .btn { width:700px; height:70px; margin-left:auto; margin-right:auto;  border:0px solid black; }
+.recruitForm .btn td { text-align:right; }
+
+
+/* 구장제휴신청 */
+.groundReq { width: 1080px; margin: 5px; display: inline-block; float: center; text-align:center; }
+.groundReq .namePhone { width:1000px; margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; border-bottom:none; }
+.groundReq .addr { width:1000px; margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; border-bottom:none; } 
+.groundReq .wdTimeDayInfo { width:1000px; margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; border-bottom:none;} 
+.groundReq .wdTimeDay { width:1000px; margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; border-bottom:none;} 
+.groundReq .weekendTimeInfo { width:1000px; margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; border-bottom:none;} 
+.groundReq .wkTimeDay { width:1000px; margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; border-bottom:none;} 
+.groundReq .isFacility { width:1000px; margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; border-bottom:none;} 
+.groundReq .groundInfo { width:1000px; margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; border-bottom:none;} 
+.groundReq .imgAndInfo { width:1000px; margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; } 
+.groundReq .btn { width:1000px; height:50px; margin-left:auto; margin-right:auto;  border:0px solid black; }
+.groundReq .btn td { text-align:right; }
+
+.groundReq .namePhone th { height:30px; background:#e6e6e6; } 
+.groundReq .addr th { height:30px; background:#e6e6e6; } 
+.groundReq .wdTimeDayInfo th { height:30px; background:#e6e6e6; }  
+.groundReq .wdTimeDay th { height:30px; background:#e6e6e6; }  
+.groundReq .weekendTimeInfo th { height:30px; background:#e6e6e6; }   
+.groundReq .wkTimeDay th { height:30px; background:#e6e6e6; }  
+.groundReq .isFacility th { height:30px; background:#e6e6e6; }  
+.groundReq .groundInfo th { height:30px; background:#e6e6e6; }  
+.groundReq .imgAndInfo th { height:30px; background:#e6e6e6; }
+  
+.groundReq .namePhone td { height:30px; }
+.groundReq .addr td { height:30px; }
+.groundReq .wdTimeDayInfo td { height:30px; }
+.groundReq .weekendTimeInfo td { height:30px; }
+.groundReq .wdTimeDay td { height:30px; }
+.groundReq .wkTimeDay td { height:30px; }  
+.groundReq .isFacility td { height:30px; }  
+.groundReq .groundInfo td { height:30px; }  
+.groundReq .imgAndInfo td { height:30px; }  
+
+
+/* 로그인폼 */
+.login { width: 1080px; margin: 5px; border:1px black solid; display: inline-block; float: center; text-align:center; }
+.login .loginForm { width:300px; height:110px; margin-left:auto; margin-right:auto; border:0px solid black; font-size:1.0em; }
+.login .loginForm .inputText { width:182px; height:16px; padding:2px 5px; border:1px solid black; margin-bottom:3px; }
+.login .loginForm .btn { width:62px; height:53px; border:1px solid black; background:#EFEFEF; }
+.login .loginForm th { border:0px solid black; }
+.login .loginForm td { border:0px solid black; }
+
+
+/* 약관동의 */
+.joinClause { width: 1080px; margin: 5px; border:1px black solid; display: inline-block; float: center; text-align:center; }
+.joinClause .clause { width:500px; height:200px; border:1px black solid; overflow:auto; margin-left:auto; margin-right:auto; }
+.joinClause .isAgree { width:400px; height:200px; border:1px black solid; overflow:auto; }
+.joinClause .isAgree { width:400px; height:200px; border:1px black solid; overflow:auto; }
+
+
+/* 회원가입 */
+
+.joinForm .form { width:800px; height:110px; margin-left:auto; margin-right:auto; border:1px solid black; }
+.joinForm .form th { border:0px solid black; text-align:center; background:#EFEFEF; height:50px; line-height:50px; }
+.joinForm .form td { border:0px solid black; height:50px; line-height:50px; padding:0 0 0 5px; }
+
+
+
+
+/* 아이디 계정찾기 */
+.layout { width: 1080px; margin: 5px; border:1px black solid; display: inline-block; float: center; text-align:center; }
+.idFind { width: 1080px; margin: 5px; border:1px black solid; display: inline-block; float: center; text-align:center; }
+.idFind .container { width:300px; height:50px;  border:0px solid black; margin-left:auto; margin-right:auto; margin:10px auto; }
+.idFind .container .l_btn { width:140px; height:50px; border:1px solid black; display: inline-block; float: left; line-height:50px; background:lightblue; font-size:1.0em; }
+.idFind .container .r_btn { width:140px; height:50px; border:1px solid black; display: inline-block; float: right; line-height:50px; background:lightblue; font-size:1.0em; }
+.idFind .findForm { width:300px; height:110px; margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; }
+.idFind .findForm th { border:0px solid black; text-align:center; background:#EFEFEF; height:20px; line-height:20px; }
+.idFind .findForm td { border:0px solid black; height:20px; line-height:20px; padding:0 0 0 5px; }
+.idFind .btn { width:300px; height:50px; margin-left:auto; margin-right:auto;  border:0px solid black; }
+.idFind .btn td { text-align:right; }
+
+
+
+/* 아이디 찾기 완료 */
+.idPwFind  { width:300px;  border:0px solid black; margin-left:auto; margin-right:auto; margin:10px auto; }
+.idPwFind .l_btn { 
+	width:140px; height:50px; border:1px solid black; display: inline-block; line-height:50px; background:lightblue; font-size:1.0em;  padding:0 0 0 5px;
+}
+.idPwFind .r_btn { 
+	width:140px; height:50px; border:1px solid black; display: inline-block; line-height:50px; background:lightblue; font-size:1.0em;  padding:0 0 0 5px;
+	}
+.idFindForm { width:300px;  border:0px solid black; margin-left:auto; margin-right:auto; margin:10px auto; }
+.idFindForm .idForm { width:300px; height:100px; margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; }
+.idFindForm .idForm td { padding:0 0 0 5px; }
+.idFindForm .btn { width:300px; height:50px; margin-left:auto; margin-right:auto;  border:0px solid black; }
+.idFindForm .btn td { text-align:right; }
+
+
+
+/* 비밀번호 계정 찾기 */
+.layout { width: 1080px; margin: 5px; border:1px black solid; display: inline-block; float: center; text-align:center; }
+.pwFind { width: 1080px; margin: 5px; border:1px black solid; display: inline-block; float: center; text-align:center; }
+.pwFind .container { width:300px; height:50px;  border:0px solid black; margin-left:auto; margin-right:auto; margin:10px auto; }
+.pwFind .container .l_btn { width:140px; height:50px; border:1px solid black; display: inline-block; float: left; line-height:50px; background:lightblue; font-size:1.0em; }
+.pwFind .container .r_btn { width:140px; height:50px; border:1px solid black; display: inline-block; float: right; line-height:50px; background:lightblue; font-size:1.0em; }
+.pwFind .findForm { width:300px; height:110px; margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; }
+.pwFind .findForm th { border:0px solid black; text-align:center; background:#EFEFEF; height:20px; line-height:20px; }
+.pwFind .findForm td { border:0px solid black; height:20px; line-height:20px; padding:0 0 0 5px; }
+.pwFind .btn { width:300px; height:50px; margin-left:auto; margin-right:auto;  border:0px solid black; }
+.pwFind .btn td { text-align:right; }
+
+
+
+/* 비밀번호 찾기 완료 */
+.idPwFind  { width:300px;  border:0px solid black; margin-left:auto; margin-right:auto; margin:10px auto; }
+.idPwFind .l_btn { 
+	width:140px; height:50px; border:1px solid black; display: inline-block; line-height:50px; background:lightblue; font-size:1.0em;  padding:0 0 0 5px;
+}
+.idPwFind .r_btn { 
+	width:140px; height:50px; border:1px solid black; display: inline-block; line-height:50px; background:lightblue; font-size:1.0em;  padding:0 0 0 5px;
+	}
+.pwFindForm { width:300px;  border:0px solid black; margin-left:auto; margin-right:auto; margin:10px auto; }
+.pwFindForm .pwForm { width:300px; height:100px; margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; }
+.pwFindForm .pwForm td { padding:0 0 0 5px; }
+.pwFindForm .btn { width:300px; height:50px; margin-left:auto; margin-right:auto;  border:0px solid black; }
+.pwFindForm .btn td { text-align:right; }
+
+
+
+/* 구장 예약현황(마이페이지) */
+.myPage { width: 1080px; margin: 5px; border:0px black solid; display: inline-block; float: center; text-align:center; }
+.myPage .container { width:1050px;  border:0px solid black; margin-left:auto; margin-right:auto; margin:10px auto; }
+.myPage .container .sideMenu { width:150px;  height:600px; border:1px solid black; display: inline-block; float: left; line-height:50px; font-size:1.0em; }
+.myPage .container .curSituation { width:850px;  height:600px; border:1px solid black; display: inline-block; float: right; line-height:50px; font-size:1.0em; }
+.myPage .container .curSituation .groundRev .listType { width:850px; margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; border-left:none; border-right:none;  border-top:none;}
+.myPage .container .curSituation .groundRev .listType th { border-bottom:0px solid black; text-align:center; background:#EFEFEF; height:30px; line-height:30px; }
+.myPage .container .curSituation .groundRev .listType .useDate { text-align:left; }
+.myPage .container .curSituation .groundRev .listType td { border-bottom:0px solid black; text-align:center; height:40px; line-height:40px; }
+
+
+
+/* 용병 현황(마이페이지) */
+.myPage { width: 1080px; margin: 5px; border:1px black solid; display: inline-block; float: center; text-align:center; }
+.myPage .container { width:1000px; border:1px solid red; margin-left:auto; margin-right:auto; margin:10px auto; }
+.myPage .container .sideMenu { width:50px; border:0px solid black; display: inline-block; float: left; line-height:50px; font-size:1.0em; }
+.myPage .container .curSituation { width:850px; border:1px solid red; display: inline-block; float: right; line-height:50px; font-size:1.0em; }
+.myPage .container .curSituation .recruit { width:850px; margin-left:auto; margin-right:auto; border:1px solid red; font-size:1.0em; border-left:none; border-right:none; }
+.myPage .container .curSituation .recruit .titleInfo { border-bottom:0px solid black; text-align:center; height:30px; line-height:30px; font-size:1.0em; }
+.myPage .container .curSituation .recruit th { border-bottom:1px solid black; text-align:center; background:#EFEFEF; height:20px; line-height:20px; }
+.myPage .container .curSituation .recruit td { border:0px solid black; text-align:center; height:20px; line-height:20px; }
+
+.myPage .container .curSituation .apply { width:850px;  margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; border-left:none; border-right:none; border-bottom:none; }
+.myPage .container .curSituation .apply .titleInfo { border-bottom:0px solid black; text-align:center; height:30px; line-height:30px; font-size:1.0em; }
+.myPage .container .curSituation .apply  th { border-bottom:1px solid black; text-align:center; background:#EFEFEF; height:20px; line-height:20px; }
+.myPage .container .curSituation .apply  td { border:0px solid black; text-align:center; height:20px; line-height:20px; }
+
+.myPage .container .curSituation .applyReq { width:850px;  margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; border-left:none; border-right:none; border-bottom:none;}
+.myPage .container .curSituation .applyReq .titleInfo { border-bottom:0px solid black; text-align:center; height:30px; line-height:30px; font-size:1.0em; }
+.myPage .container .curSituation .applyReq th { border-bottom:1px solid black; text-align:center; background:#EFEFEF; height:20px; line-height:20px; }
+.myPage .container .curSituation .applyReq td { border:0px solid black; text-align:center; height:20px; line-height:20px;  }
+
+.myPage .container .curSituation .recruitReq { width:850px;  margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; border-left:none; border-right:none; border-bottom:none;}
+.myPage .container .curSituation .recruitReq .titleInfo { border-bottom:0px solid black; text-align:center; height:30px; line-height:30px; font-size:1.0em; }
+.myPage .container .curSituation .recruitReq  th { border-bottom:1px solid black; text-align:center; background:#EFEFEF; height:20px; line-height:20px; }
+.myPage .container .curSituation .recruitReq  td { border:0px solid black; text-align:center; height:20px; line-height:20px;  }
+
+
+
+
+/* 회원정보 수정(마이페이지) */
+.myPage { width: 1080px; margin: 5px; border:0px black solid; display: inline-block; float: center; text-align:center; }
+.myPage .container { width:1050px;  border:0px solid black; margin-left:auto; margin-right:auto; margin:10px auto; }
+.myPage .container .sideMenu { width:150px;  height:600px; border:1px solid black; display: inline-block; float: left; line-height:50px; font-size:1.0em; }
+.myPage .container .curSituation { width:850px; height:600px; border:1px solid black; display: inline-block; float: right; line-height:50px; font-size:1.0em; }
+.myPage .container .curSituation .groundRev .upForm { width:800px; height:530px; margin-left:auto; margin-right:auto; border:0px solid red; font-size:1.0em; }
+.myPage .container .curSituation .groundRev .upForm th { border:0px solid black; text-align:center; background:#EFEFEF; height:50px; line-height:50px; }
+.myPage .container .curSituation .groundRev .upForm td { border:0px solid black; height:50px; line-height:50px; padding:0 0 0 5px; }
+.myPage .container .curSituation .groundRev .btn { width:800px; height:50px; margin-left:auto; margin-right:auto;  border:0px solid black; }
+.myPage .container .curSituation .groundRev .btn td { text-align:right; }
+
+
+
+/* 회원탈퇴(마이페이지) */
+.myPage { width: 1080px; margin: 5px; border:0px black solid; display: inline-block; float: center; text-align:center; }
+.myPage .container { width:1050px;  border:0px solid black; margin-left:auto; margin-right:auto; margin:10px auto; }
+.myPage .container .sideMenu { width:150px;  height:600px; border:1px solid black; display: inline-block; float: left; line-height:50px; font-size:1.0em; }
+.myPage .container .curSituation { width:850px; height:600px; border:1px solid black; display: inline-block; float: right; line-height:50px; font-size:1.0em; }
+.myPage .container .curSituation .outClause .clause { width:800px; height:100px; margin-left:auto; margin-right:auto; border:1px solid black; font-size:1.0em; overflow:auto; }
+.myPage .container .curSituation .outClause .outForm { width:800px; height:400px; margin-left:auto; margin-right:auto; border:0px solid red; font-size:1.0em; }
+.myPage .container .curSituation .outClause .outForm th { border:0px solid black; text-align:center; background:#EFEFEF; height:50px; line-height:50px; }
+.myPage .container .curSituation .outClause .outForm td { border:0px solid black; height:50px; line-height:50px; padding:0 0 0 10px; }
+.myPage .container .curSituation .outClause .btn { width:800px; height:20px; margin-left:auto; margin-right:auto;  border:0px solid black; }
+.myPage .container .curSituation .outClause .btn td { text-align:right; }
+
+
+
+/* 푸터 */	
+.companyInfo { width: 1080px; height: 50px; margin: 5px; border:0px red solid; display: inline-block; float: center; text-align:center; line-height:50px; }
+.companyInfo ul { margin-bottom:20px; }
+.companyInfo li { position:relative; display:inline; padding: 0 7px 0 10px; }
+.companyInfo li:before { content:''; width:1px; height:12px; background:#ccc; position:absolute; left:0; top:2px; } /* 간격 사이의 | 를 생성함 */
+.companyInfo li:first-child:before { width:0px; height:0px; } /* 첫번째 |를 없앰 */
+.companyInfo .w3c { margin-top:15px; }

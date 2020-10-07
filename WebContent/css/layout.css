@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+#wrapper { width:85%; margin:0 auto; border:0px solid black; padding-bottom: 10px; }
+
+#header { width:1090px; margin: 0 auto; border:1px solid black; text-align: center; padding: 10px 0; }
+
+#body { width: 1090px; height:100%; border:1px solid black; margin: auto; margin-top: 10px; }
+
+#banner { left:100px; }
+
+#search { width:1090px; margin: auto; text-align: center; margin-top: 10px; }
+
+#groundList { width:1090px; margin: auto; text-align: center; margin-top: 15px; border:1px black solid; }
+
+#footer { width: 1090px; border:1px solid black; margin: auto; margin-top: 10px; text-align:center; }
+
+#more { height: 30px; font-size: 20px; margin-top: 20px; border: 1px red solid; }
